@@ -64,7 +64,7 @@ const datos = [
 	{
 		id: '3',
 		titulo: 'Job #3',
-		texto: 'This simple app helps you remember how you spended your money',
+		texto: 'This simple app helps you remember how you spended your money . you can enjoy this here : https://curso-react-app-lista-ga-a835b.web.app/iniciar-sesion',
 		fecha: 'April de 2023',
 	},
 	{
