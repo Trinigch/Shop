@@ -5,7 +5,7 @@ const datos = [
 	{
 		id: '1',
 		titulo: 'Job #1',
-		texto: 'This web show a galery of photos from diferents places all around the world. Check here: https://trinigch.github.io/Galery/ or download https://github.com/Trinigch/Galery';
+		texto: 'This web show a galery of photos from diferents places all around the world. Check here: https://trinigch.github.io/Galery/ or download https://github.com/Trinigch/Galery',
 		fecha: 'March 2023'
 	},
 	{
