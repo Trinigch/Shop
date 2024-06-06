@@ -11,8 +11,8 @@ const datos = [
 	{
 		id: '2',
 		titulo: 'Job #2',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		texto: 'This Ecommers let you show products and register purchases Check here: https://trinigch.github.io/Shop/ or download https://github.com/Trinigch/Shop',
+		fecha: 'January  2023',
 	},
 	{
 		id: '3',
