@@ -1,15 +1,15 @@
 @use 'variables';
 
 .hero {
-	width: 90%;
-	max-width: 1000px;
+	width: 80%;
 	margin: auto;
-	min-height: 500px;
+	min-height: 400px;
 	display: grid;
 	grid-template-columns: 55% 45%;
 
 	&__info {
-		background: #fff;
+		background:#fcfcfc;;
+		color: #fbd1ee;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -17,6 +17,7 @@
 	}
 
 	&__header {
+		
 		position: relative;
 		display: flex;
 		flex-direction: column;
@@ -28,20 +29,21 @@
 		font-weight: 700;
 		display: inline-block;
 		position: relative;
+		color: #c7fa9b;
 	}
 
 	&__subtitulo {
 		font-size: 18px;
 		font-weight: 700;
 		margin: 10px 0;
-		color: variables.$color-primario;
+		color: #0b0b0b;
 	}
 
 	&__cursor {
 		display: none;
 		height: 34px;
 		width: 34px;
-		color: #8b8b8b;
+		color: #fbd1ee;
 		position: absolute;
 		top: 4px;
 		// left: 90px;
@@ -89,9 +91,10 @@
 		align-items: center;
 		justify-content: center;
 		padding: 12px;
+		color: #fff;
 		border-radius: 40px;
-		&--twitter {
-			background: #1da1f2;
+		&--github {
+			background: #dd55cb;
 		}
 		&--linkedin {
 			background: #0077b5;
@@ -114,6 +117,7 @@
 	&__foto {
 		vertical-align: top;
 		width: 100%;
+		
 	}
 
 	&__burbuja {
@@ -127,21 +131,23 @@
 		text-align: center;
 		user-select: none;
 		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-		bottom: -50px;
+		bottom: 50px;
 		opacity: 0;
 
 		&--naranja {
 			transition: 1s ease-in-out all;
-			width: 100px;
+			width: 150px;
 			background: variables.$color-naranja;
-			left: -50px;
+			bottom: -75px;
+			
 		}
 
 		&--azul {
 			transition: 1s ease-in-out all 0.2s;
-			width: 200px;
+			width: 100px;
 			background: variables.$color-primario;
-			right: -50px;
+			right: 125px;
+			bottom: -50px;
 		}
 
 		&--active-1 {

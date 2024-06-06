@@ -452,6 +452,7 @@ var dataCategorias = {
 /**
  * Archivo que se encarga de cargar las categorias.
  */
+
 const { categorias } = dataCategorias;
 const contenedorCategorias$1 = document.getElementById('categorias');
 
@@ -462,7 +463,7 @@ categorias.forEach((categoria) => {
 		<img class="categoria__img" src="${categoria.imagenPortada}" alt="" />
 		<div class="categoria__datos">
 			<p class="categoria__nombre">${categoria.nombre}</p>
-			<p class="categoria__numero-fotos">${categoria.numeroFotos} Fotos</p>
+			<p class="categoria__numero-fotos">${categoria.numeroFotos} Photos</p>
 		</div>
 	`;
 
@@ -549,6 +550,7 @@ const cargarAnteriorSiguiente = (direccion) => {
 /**
  * Archivo que se encarga del evento de las categorias.
  */
+
 
 const contenedorCategorias = document.getElementById('categorias');
 const galeria$4 = document.getElementById('galeria');
@@ -698,6 +700,7 @@ const carousel = (direccion) => {
 /**
  * Archivo que se encarga de administrar los eventos de la galeria.
  */
+
 
 const galeria = document.getElementById('galeria');
 

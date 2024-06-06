@@ -51,19 +51,19 @@ const ventanaTrabajos = document.getElementById('ventana-trabajos');
 const datos = [
 	{
 		id: '1',
-		titulo: 'Trabajo #1',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		titulo: 'Job #1',
+		texto: 'This web show a galery of pics from diferents places around the world. Check here: https://trinigch.github.io/Galery/ ',
+		fecha: 'March 2023',
 	},
 	{
 		id: '2',
-		titulo: 'Trabajo #2',
+		titulo: 'Job #2',
 		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
 		fecha: '1 de Enero de 2023',
 	},
 	{
 		id: '3',
-		titulo: 'Trabajo #3',
+		titulo: 'Job #3',
 		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
 		fecha: '1 de Enero de 2023',
 	},
@@ -127,9 +127,6 @@ ventanaTrabajos.querySelector('.ventana__overlay').addEventListener('click', (e)
 });
 
 const slider = document.getElementById('slider');
-
-// Codepen fuente del slider:
-// https://codepen.io/kellyex/pen/KKwwdYg?editors=0010
 
 // Variable que guarda el estado de si tenemos el click presionado.
 let clickPresionado = false;
