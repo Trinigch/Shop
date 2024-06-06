@@ -17,8 +17,8 @@ const datos = [
 	{
 		id: '3',
 		titulo: 'Job #3',
-		texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis, veniam eius nesciunt ex enim delectus, nobis perferendis ut minima optio id earum consectetur repellat ea natus qui, aliquid totam?',
-		fecha: '1 de Enero de 2023',
+		texto: 'This simple app helps you remember how you spended your money',
+		fecha: 'April de 2023',
 	},
 	{
 		id: '4',
